@@ -1,4 +1,3 @@
-//
 ## SNS topic
 
 resource "aws_sns_topic" "cw_topic" {
@@ -14,4 +13,3 @@ resource "aws_sns_topic_subscription" "cw_sub" {
     endpoint = "amoldoijad1@gmail.com"
   
 }
-//
